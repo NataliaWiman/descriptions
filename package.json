@@ -9,9 +9,6 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@tiptap-pro/extension-details": "^2.21.0",
-    "@tiptap-pro/extension-details-content": "^2.21.0",
-    "@tiptap-pro/extension-details-summary": "^2.21.0",
     "@tiptap-pro/extension-table-of-contents": "^2.21.0",
     "@tiptap/core": "^2.11.5",
     "@tiptap/extension-blockquote": "^2.10.2",
