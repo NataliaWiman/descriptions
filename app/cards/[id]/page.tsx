@@ -4,7 +4,8 @@ import CardEditor from "@/components/CardEditor";
 import Sidebar from "@/components/Sidebar";
 
 interface CardPageProps {
-  params: { id: string };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  params: any;
 }
 
 const CardPage = async ({ params }: CardPageProps) => {

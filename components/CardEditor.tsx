@@ -75,7 +75,6 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
     immediatelyRender: false,
     onUpdate: ({ editor: instance }) => {
       setContent(instance.getHTML());
-      console.log(content);
     },
   });
 
