@@ -35,7 +35,6 @@ import Cover from "./Cover";
 import TextSelect from "./TextSelect";
 import ThumbUp from "./ThumbUp";
 import ThumbDown from "./ThumbDown";
-import AddEmoji from "./addEmoji";
 
 export const icons = {
   spinner: Spinner,
@@ -65,7 +64,6 @@ export const icons = {
   textSelect: TextSelect,
   thumbUp: ThumbUp,
   thumbDown: ThumbDown,
-  addEmoji: AddEmoji,
 
   textUp: TextUp,
   placeholder: Placeholder,
