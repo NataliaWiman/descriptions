@@ -1,0 +1,27 @@
+import React from "react";
+
+const Swords = ({
+  className,
+  strokeWidth,
+}: {
+  className: string;
+  strokeWidth?: number;
+}) => {
+  return (
+    <svg
+      className={className}
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke="currentColor"
+      strokeWidth={strokeWidth}
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      transform="matrix(-1,0,0,1,0,0)"
+    >
+      <path d="M14.5 17.5 3 6V3h3l11.5 11.5M13 19l6-6m-3 3 4 4m-1 1 2-2" />
+    </svg>
+  );
+};
+
+export default Swords;

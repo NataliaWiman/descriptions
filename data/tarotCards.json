@@ -1,0 +1,388 @@
+{
+  "100-the-fool": {
+    "name": "The Fool",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "101-the-magician": {
+    "name": "The Magician",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "102-the-high-priestess": {
+    "name": "The High Priestess",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "103-the-empress": {
+    "name": "The Empress",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "104-the-emperor": {
+    "name": "The Emperor",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "105-the-hierophant": {
+    "name": "The Hierophant",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "106-the-lovers": {
+    "name": "The Lovers",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "107-the-chariot": {
+    "name": "The Chariot",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "108-strength": {
+    "name": "Strength",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "109-the-hermit": {
+    "name": "The Hermit",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "110-wheel-of-fortune": {
+    "name": "Wheel of Fortune",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "111-justice": {
+    "name": "Justice",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "112-the-hanged-man": {
+    "name": "The Hanged Man",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "113-death": { "name": "Death", "suit": "Major Arcana", "description": "" },
+  "114-temperance": {
+    "name": "Temperance",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "115-the-devil": {
+    "name": "The Devil",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "116-the-tower": {
+    "name": "The Tower",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "117-the-star": {
+    "name": "The Star",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "118-the-moon": {
+    "name": "The Moon",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "119-the-sun": {
+    "name": "The Sun",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "120-judgement": {
+    "name": "Judgement",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "121-the-world": {
+    "name": "The World",
+    "suit": "Major Arcana",
+    "description": ""
+  },
+  "201-ace-of-wands": {
+    "name": "Ace of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "202-two-of-wands": {
+    "name": "Two of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "203-three-of-wands": {
+    "name": "Three of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "204-four-of-wands": {
+    "name": "Four of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "205-five-of-wands": {
+    "name": "Five of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "206-six-of-wands": {
+    "name": "Six of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "207-seven-of-wands": {
+    "name": "Seven of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "208-eight-of-wands": {
+    "name": "Eight of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "209-nine-of-wands": {
+    "name": "Nine of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "210-ten-of-wands": {
+    "name": "Ten of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "211-page-of-wands": {
+    "name": "Page of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "212-knight-of-wands": {
+    "name": "Knight of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "213-queen-of-wands": {
+    "name": "Queen of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "214-king-of-wands": {
+    "name": "King of Wands",
+    "suit": "Wands",
+    "description": ""
+  },
+  "301-ace-of-cups": {
+    "name": "Ace of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "302-two-of-cups": {
+    "name": "Two of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "303-three-of-cups": {
+    "name": "Three of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "304-four-of-cups": {
+    "name": "Four of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "305-five-of-cups": {
+    "name": "Five of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "306-six-of-cups": {
+    "name": "Six of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "307-seven-of-cups": {
+    "name": "Seven of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "308-eight-of-cups": {
+    "name": "Eight of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "309-nine-of-cups": {
+    "name": "Nine of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "310-ten-of-cups": {
+    "name": "Ten of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "311-page-of-cups": {
+    "name": "Page of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "312-knight-of-cups": {
+    "name": "Knight of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "313-queen-of-cups": {
+    "name": "Queen of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "314-king-of-cups": {
+    "name": "King of Cups",
+    "suit": "Cups",
+    "description": ""
+  },
+  "401-ace-of-swords": {
+    "name": "Ace of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "402-two-of-swords": {
+    "name": "Two of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "403-three-of-swords": {
+    "name": "Three of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "404-four-of-swords": {
+    "name": "Four of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "405-five-of-swords": {
+    "name": "Five of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "406-six-of-swords": {
+    "name": "Six of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "407-seven-of-swords": {
+    "name": "Seven of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "408-eight-of-swords": {
+    "name": "Eight of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "409-nine-of-swords": {
+    "name": "Nine of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "410-ten-of-swords": {
+    "name": "Ten of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "411-page-of-swords": {
+    "name": "Page of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "412-knight-of-swords": {
+    "name": "Knight of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "413-queen-of-swords": {
+    "name": "Queen of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "414-king-of-swords": {
+    "name": "King of Swords",
+    "suit": "Swords",
+    "description": ""
+  },
+  "501-ace-of-pentacles": {
+    "name": "Ace of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "502-two-of-pentacles": {
+    "name": "Two of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "503-three-of-pentacles": {
+    "name": "Three of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "504-four-of-pentacles": {
+    "name": "Four of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "505-five-of-pentacles": {
+    "name": "Five of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "506-six-of-pentacles": {
+    "name": "Six of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "507-seven-of-pentacles": {
+    "name": "Seven of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "508-eight-of-pentacles": {
+    "name": "Eight of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "509-nine-of-pentacles": {
+    "name": "Nine of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "510-ten-of-pentacles": {
+    "name": "Ten of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "511-page-of-pentacles": {
+    "name": "Page of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "512-knight-of-pentacles": {
+    "name": "Knight of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "513-queen-of-pentacles": {
+    "name": "Queen of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  },
+  "514-king-of-pentacles": {
+    "name": "King of Pentacles",
+    "suit": "Pentacles",
+    "description": ""
+  }
+}

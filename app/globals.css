@@ -1,0 +1,64 @@
+@import "editor.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #fcfbf7;
+  --foreground: #492e1e;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #492e1e;
+    --foreground: #f8eddd;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: var(--font-primary);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  font-family: var(--font-primary);
+}
+
+.tiptap.ProseMirror {
+  @apply flex flex-wrap gap-x-6 min-h-[80vh] outline-none;
+}
+
+img {
+  display: block;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer utilities {
+  .font-title {
+    font-family: var(--font-title);
+    font-weight: 400;
+    letter-spacing: 0.01em;
+    -webkit-text-stroke: 0.01em;
+  }
+  .font-primary {
+    font-family: var(--font-primary);
+  }
+  .font-secondary {
+    font-family: var(--font-secondary);
+  }
+}

@@ -1,0 +1,115 @@
+.editor svg {
+  @apply inline-block;
+}
+.editor *[data-type="lucideIcon"] {
+  @apply inline-flex;
+}
+.editor h1,
+.editor h2,
+.editor h3,
+.editor h4 {
+  @apply my-2 md:my-4 font-bold text-ginger-500 scroll-m-20;
+}
+
+.editor h1 {
+  font-family: var(--font-title);
+  @apply mt-2 lg:mt-0 mb-5 font-normal text-3xl md:text-4xl;
+}
+.editor h2 {
+  @apply sticky top-0 w-full py-3 px-4 bg-greige-100 text-lg;
+}
+.editor h3 {
+  @apply sticky top-0 w-full py-3 px-4 bg-greige-100 text-base text-center;
+}
+.editor h4 {
+  @apply text-lg;
+}
+
+.editor p {
+  @apply my-2 md:my-3 font-medium text-base leading-6 tracking-wide text-coffee-900;
+}
+.editor p em {
+  @apply not-italic font-medium;
+}
+
+.editor b,
+.editor strong {
+  @apply font-black text-coffee-700;
+}
+
+.editor i,
+.editor em {
+  @apply italic;
+}
+
+.editor ul {
+  @apply list-disc ml-8 lg:ml-4;
+}
+.editor ul li {
+  @apply marker:text-coffee-700;
+}
+.editor ul li p {
+  @apply my-1 md:my-2;
+}
+
+.editor .cover-block {
+  @apply grid lg:grid-cols-[35%_1fr] gap-x-8 p-4 bg-greige-100 rounded-lg;
+}
+.editor .cover-block img {
+  @apply w-full;
+}
+.editor .cover-block blockquote:has(img) {
+  @apply columns-1;
+}
+.editor .cover-block blockquote p {
+  @apply bg-peach-400;
+}
+
+.editor span.icon {
+  @apply relative inline-block pl-7;
+}
+.editor span.icon::before {
+  content: "";
+  mask-position: top center;
+  mask-size: 18px;
+  mask-repeat: no-repeat;
+  @apply absolute left-0 w-[18px] h-[18px] bg-coffee-700;
+}
+.editor span.icon-thumbup::before {
+  top: 4px;
+  mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M7 10v12m8-16.12L14 10h5.83a2 2 0 0 1 1.92 2.56l-2.33 8A2 2 0 0 1 17.5 22H4a2 2 0 0 1-2-2v-8a2 2 0 0 1 2-2h2.76a2 2 0 0 0 1.79-1.11L12 2a3.13 3.13 0 0 1 3 3.88"/%3E%3C/svg%3E');
+}
+.editor span.icon-thumbdown::before {
+  top: 7px;
+  mask-image: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M17 14V2M9 18.12 10 14H4.17a2 2 0 0 1-1.92-2.56l2.33-8A2 2 0 0 1 6.5 2H20a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2h-2.76a2 2 0 0 0-1.79 1.11L12 22a3.13 3.13 0 0 1-3-3.88"/%3E%3C/svg%3E');
+}
+
+.editor .bg-darker,
+.editor .bg-lighter {
+  @apply rounded-lg px-5 py-1;
+}
+.editor .bg-darker {
+  @apply bg-peach-400;
+}
+.editor .bg-lighter {
+  @apply bg-peach-300;
+}
+.editor .label-group {
+  @apply outline-none;
+}
+.editor .label {
+  @apply inline-block mb-1.5 mx-0.5 px-2.5 py-1 text-base leading-6 tracking-wide text-black bg-peach-400 rounded;
+}
+
+.editor .editor-columns-2 {
+  @apply grid lg:grid-cols-2 gap-4;
+}
+.editor .editor-columns-3 {
+  @apply grid grid-cols-3 gap-3;
+}
+.tiptap > *:not(.cover-block):not(h2):not(h3):not(h4) {
+  @apply w-full lg:w-[65%] mx-auto;
+}
+.tiptap > ul {
+  @apply pl-4;
+}
