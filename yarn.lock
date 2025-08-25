@@ -833,21 +833,6 @@
   dependencies:
     tslib "^2.8.0"
 
-"@tiptap-pro/extension-details-content@^2.21.0":
-  version "2.21.0"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-details-content/-/extension-details-content-2.21.0.tgz#9a240fc0d2a4ced18c6155f41b563c039bfe79e5"
-  integrity sha512-2p0johrKaOHFP3St/ZfeoRaGP3OR4OHTcE4/i7K+32oG5Egp+7Nk6vTWIaylpvHxcC1BTQnqzfabNqAMcAVbrA==
-
-"@tiptap-pro/extension-details-summary@^2.21.0":
-  version "2.21.0"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-details-summary/-/extension-details-summary-2.21.0.tgz#45e86c523d08ce35a6e5d423337d0f19732a63e5"
-  integrity sha512-ZcB+fyJIMs6p+y6mQ7/4FEe8ItBrbuY6/13xFPTpRUedjpP+lUWltcHHzALEpEpw4ecWWfLZm1kH+aesISajxQ==
-
-"@tiptap-pro/extension-details@^2.21.0":
-  version "2.21.0"
-  resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-details/-/extension-details-2.21.0.tgz#55334b7bb5b984518f45f5f9c6fd868bf2ad028a"
-  integrity sha512-Qwadl+ivuuGbKLE+A6QVD+69t+Qr4fv+6XagZs+g87ZX26Bf49towybtI5YpAy1HwyL8o2h+nevnJL88Np0ssw==
-
 "@tiptap-pro/extension-table-of-contents@^2.21.0":
   version "2.21.0"
   resolved "https://registry.tiptap.dev/@tiptap-pro%2fextension-table-of-contents/-/extension-table-of-contents-2.21.0.tgz#6159d18d5ec4325cdbadffd9085b12eaf8fa4c1e"
