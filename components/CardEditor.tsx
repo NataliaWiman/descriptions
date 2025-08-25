@@ -14,13 +14,7 @@ import BulletList from "@tiptap/extension-bullet-list";
 import Toolbar from "./Toolbar";
 import Icon from "./icons/Icon";
 import Blockquote from "@tiptap/extension-blockquote";
-//import UniqueID from "@tiptap/extension-unique-id";
-import TableOfContents, {
-  getHierarchicalIndexes,
-  TableOfContentData,
-} from "@tiptap-pro/extension-table-of-contents";
 import React from "react";
-import { ToC } from "./ToC";
 import TextStyle from "@tiptap/extension-text-style";
 import CodeBlock from "@tiptap/extension-code-block";
 import Strike from "@tiptap/extension-strike";
@@ -42,7 +36,6 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
   const [content, setContent] = useState<string>(initialContent);
   const [isSaving, setIsSaving] = useState(false);
   const [isEditable, setIsEditable] = useState(false);
-  const [items, setItems] = useState<TableOfContentData>([]);
   const isDevMode = Boolean(process.env.NEXT_PUBLIC_MODE === "dev");
 
   const editor = useEditor({
@@ -75,12 +68,6 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
       CodeBlock.configure({
         HTMLAttributes: {
           class: "my-custom-class",
-        },
-      }),
-      TableOfContents.configure({
-        getIndex: getHierarchicalIndexes,
-        onUpdate(content) {
-          setItems(content);
         },
       }),
     ],
@@ -191,12 +178,6 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
           }`}
         />
       </div>
-
-      <aside className="card-contents hidden lg:block sticky top-0 self-start">
-        <div className="overflow-y-auto px-2 py-3">
-          {items && <ToC editor={editor} items={items} />}
-        </div>
-      </aside>
     </section>
   );
 };
