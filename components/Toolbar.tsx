@@ -217,11 +217,6 @@ const Toolbar = ({ editor, isVisible }: ToolbarTypes) => {
             icon="blockquote"
           />
           <ToolbarButton
-            onClick={() => editor?.chain().focus().setLabelGroup("light").run()}
-            title="Transform text into labels"
-            icon="tag"
-          />
-          <ToolbarButton
             onClick={() =>
               editor
                 ?.chain()

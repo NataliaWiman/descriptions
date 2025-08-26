@@ -123,7 +123,7 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
             )}
 
             <div className={`flex flex-row-reverse w-full`}>
-              <div className="flex max-lg:flex-col gap-2">
+              <div className="flex max-lg:flex-col items-center gap-2">
                 {isEditable && (
                   <button
                     aria-label="Save"
@@ -172,9 +172,7 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
 
         <EditorContent
           editor={editor}
-          className={`editor md:mb-8 px-2 pb-10 md:rounded-b-2xl transition-all ${
-            !isDevMode ? "pt-2" : ""
-          }`}
+          className={`editor md:mb-8 pb-10 md:rounded-b-2xl transition-all`}
         />
       </div>
     </section>
