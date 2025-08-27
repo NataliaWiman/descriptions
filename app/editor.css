@@ -13,14 +13,12 @@
 
 .editor h1 {
   font-family: var(--font-title);
-  @apply mt-3 lg:mt-0 mb-6 lg:mb-8 text-3xl md:text-4xl;
+  @apply hidden lg:block max-lg:sticky max-lg:top-0 max-lg:w-full lg:mt-0 max-lg:mb-0 max-lg:pt-1 max-lg:pb-2 text-2xl lg:text-3xl max-lg:bg-greige-100 z-10;
 }
-.editor h2 {
-  @apply sticky top-0 w-full py-3 px-4 bg-greige-100 text-lg;
-}
+.editor h2,
 .editor h3,
 .editor h4 {
-  @apply sticky top-0 w-full py-3 px-4 bg-greige-100 text-base text-center;
+  @apply sticky top-10 lg:top-0 w-full my-3 py-1.5 lg:py-3 px-4 font-extrabold text-base text-center tracking-wide bg-greige-100;
 }
 
 .editor p {
@@ -51,7 +49,7 @@
 }
 
 .editor .cover-block {
-  @apply grid lg:grid-cols-[35%_1fr] gap-x-8 p-4 bg-greige-100 md:rounded-lg;
+  @apply grid lg:grid-cols-[40%_1fr] gap-x-8 max-w-full pt-3 pb-4 lg:py-8 px-4 lg:px-[12%] bg-greige-100 md:rounded-lg;
 }
 .editor .cover-block img {
   @apply w-full;
@@ -59,14 +57,17 @@
 .editor .cover-block blockquote:has(img) {
   @apply columns-1;
 }
+.editor .cover-block blockquote {
+  @apply max-lg:mb-3;
+}
 .editor .cover-block blockquote p {
   @apply bg-peach-400;
 }
 .editor .cover-block h2 {
-  @apply my-0;
+  @apply static mt-3 mb-2 lg:mt-0 lg:mb-0;
 }
 .editor .cover-block p + h2 {
-  @apply -mt-4;
+  @apply lg:-mt-4;
 }
 
 .editor span.icon {
@@ -102,17 +103,17 @@
   @apply outline-none;
 }
 .editor .label {
-  @apply inline-block mb-1.5 mx-0.5 px-2.5 py-1 font-semibold text-base leading-6 tracking-wide text-coffee-700 bg-peach-400 rounded;
+  @apply inline-block mb-1.5 mx-0.5 px-2.5 py-0.5 font-bold text-sm leading-5 tracking-wide text-coffee-700 bg-peach-400 rounded;
 }
 
 .editor .editor-columns-2 {
-  @apply grid lg:grid-cols-2 gap-4;
+  @apply grid lg:grid-cols-2 lg:gap-4;
 }
 .editor .editor-columns-3 {
   @apply grid grid-cols-3 gap-3;
 }
 .tiptap > *:not(.cover-block):not(h2):not(h3):not(h4) {
-  @apply w-full lg:w-[65%] mx-auto;
+  @apply w-full lg:w-[55%] mx-auto;
 }
 .tiptap > p {
   @apply px-4;

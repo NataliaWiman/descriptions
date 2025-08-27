@@ -22,7 +22,10 @@ body {
   font-family: var(--font-primary);
 }
 
-h1,
+h1 {
+  font-family: var(--font-title);
+}
+
 h2,
 h3,
 h4,

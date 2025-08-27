@@ -58,12 +58,12 @@ const Sidebar = () => {
   return (
     <>
       <aside
-        className={`fixed lg:sticky self-start top-0 left-0 w-full md:w-64 h-screen bg-peach-200 text-coffee-800  z-20 transition-transform ${
+        className={`fixed lg:sticky self-start top-0 left-0 w-full h-screen bg-peach-200 text-coffee-800  z-20 transition-transform ${
           isSidebarVisible ? "" : "-translate-x-full md:translate-x-0"
         }`}
       >
         <button
-          className={`lg:hidden fixed top-4 z-40 ${
+          className={`lg:hidden fixed top-2 z-40 ${
             isSidebarVisible ? "right-4" : "-right-8"
           }`}
           onClick={() => setIsSidebarVisible(!isSidebarVisible)}

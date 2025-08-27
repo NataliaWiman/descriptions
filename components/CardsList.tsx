@@ -57,7 +57,7 @@ const CardsList = () => {
 
               <ul
                 id={suit}
-                className="grid grid-cols-4 lg:grid-cols-5 gap-2 lg:gap-4 scroll-m-24"
+                className="grid grid-cols-3 lg:grid-cols-5 gap-2 lg:gap-4 scroll-m-24"
               >
                 {groupedCards[suit]?.map((card: Card) => (
                   <li

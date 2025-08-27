@@ -32,10 +32,10 @@ interface CardEditorProps {
   suit: string;
 }
 
-const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
+const CardEditor = ({ cardId, initialContent, title }: CardEditorProps) => {
   const [content, setContent] = useState<string>(initialContent);
   const [isSaving, setIsSaving] = useState(false);
-  const [isEditable, setIsEditable] = useState(false);
+  const [isEditable, setIsEditable] = useState(true);
   const isDevMode = Boolean(process.env.NEXT_PUBLIC_MODE === "dev");
 
   const editor = useEditor({
@@ -108,11 +108,11 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
   if (!cardId) return null;
 
   return (
-    <section className="card relative grid items-start lg:grid-cols-[minmax(730px,_1fr)_240px] w-full max-lg:max-w-screen">
-      <div className="relative lg:px-4">
+    <section className="card relative grid items-start w-full max-lg:max-w-screen">
+      <div className="relative">
         {isDevMode && (
           <header
-            className={`sticky right-0 flex z-10 transition-all ${
+            className={`sticky right-0 flex z-20 transition-all ${
               isEditable ? "top-0 h-auto bg-peach-100" : "top-3 h-0"
             }`}
           >
@@ -170,9 +170,15 @@ const CardEditor = ({ cardId, initialContent }: CardEditorProps) => {
           </header>
         )}
 
+        <div className="lg:hidden sticky top-0 w-full pt-0.5 pb-1.5 bg-peach-400 z-10">
+          <h1 className="font-bold text-ginger-600 text-2xl text-center">
+            {title}
+          </h1>
+        </div>
+
         <EditorContent
           editor={editor}
-          className={`editor md:mb-8 pb-10 md:rounded-b-2xl transition-all`}
+          className={`editor md:mb-8 pb-10 transition-all`}
         />
       </div>
     </section>
