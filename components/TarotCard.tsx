@@ -67,7 +67,7 @@ const TarotCard = ({ title, suit, cardId, size }: TarotCardProps) => {
               <span>{romeNumerals[Number(cardId.slice(1, 3))]}</span>
             </h3>
           )}
-          <div className="absolute top-0 left-0 w-full h-full bg-peach-100/10 hover:bg-transparent transition-colors" />
+          <div className="absolute top-0 left-0 w-full h-full bg-peach-100/10" />
           <Image
             className={`w-full h-auto lg:border-2 border-peach-900 ${
               suit != "Major Arcana"
